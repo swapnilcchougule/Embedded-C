@@ -7,9 +7,9 @@
   * @brief    
   ******************************************************************************
 */ 
-
 //online compiler: https://www.onlinegdb.com/online_c_compiler
-
+//Tutorials-point: https://www.tutorialspoint.com/cprogramming/index.htm
+//Javat-t-point  : https://www.javatpoint.com/c-programming-language-tutorial 
 /***************************** Includes *****************************************************/
 #include<stdio.h>    // The header file stdio.h stands for Standard Input Output. It has the information related to input/output functions. i.e.:printf(),scanf(),getc(),putc() etc.
 #include<stdint.h>   // it declare sets of integer types having specified widths, and shall define corresponding sets of macros.i.e.: int8_t,int16_t,int32_t,uint8_t,uint16_t,uint32_t

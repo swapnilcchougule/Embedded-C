@@ -45,12 +45,12 @@ int main(void)
  int *pAddress = (int*)&long_data;                             // type cast 'long'(64) to 'int' (Converting uint64_t into int)  
  
  printf("value of pointer pAddress is %p\n",pAddress);         // LSB value in variable pointer pAddress
- printf("Value at address %p is %x\n", pAddress, *pAddress);   // fetched LSB value(11112345) from pointer ptr
+ printf("Value at address %p is %x\n", pAddress, *pAddress);   // fetched LSB value(11112345) from pointer pAddress
 
  pAddress = pAddress + 1;                                      // increment the pointer
 
  printf("value of pAddress %p\n",pAddress);                    // MSB value in variable pointer pAddress
- printf("Value at address %p is %x", pAddress, *pAddress);     // fetched MSB value(FFFEABCD) from pointer ptr
+ printf("Value at address %p is %x", pAddress, *pAddress);     // fetched MSB value(FFFEABCD) from pointer pAddress
  
  return 0;
 }
